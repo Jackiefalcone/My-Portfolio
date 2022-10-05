@@ -47,3 +47,20 @@ h3 {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--secondary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.homepage-link {
+  color: var(--secondary-color);
+  text-align: center;
+  display: block;
+}
